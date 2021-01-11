@@ -1,3 +1,8 @@
+'''
+Run a test training progress.
+This script also works as a template of how to use the packages.
+'''
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
