@@ -19,8 +19,8 @@ from utils.data_utils import generate_dataset
 from utils.training_utils import train_model, test_model
 from models.dense_convtranspose1d import DenseConvTranspose1D
 
-device = torch.device('cuda:0')
-
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+print(device)
 
 # ================== Data Loading ==================
 PATH_ZIPSET = 'data/allsilicone_325.npz'
