@@ -1,8 +1,11 @@
 # DiatomDL
-The aim of this project is to use deep learning to accelerate the designing of diatom and diatom structure inspired meta materials.
+A deep neural network structure to accelerate the design of diatom-inspired hierarchical arrangement of nanoparticle patterns.
 
-### Net Structure (Forward): Dense Net 6
-![Dense Net 6](https://github.com/GuoyaoShen/DiatomDL/blob/main/figs/Diatom_densenet6.png)
+### The schematic of the deep-learning model
+![schematic of the deep-learning model](https://github.com/GuoyaoShen/DiatomDL/blob/main/figs/whole_structure.png)
 
-### Some Results
-![Results Image](https://github.com/GuoyaoShen/DiatomDL/blob/main/figs/result_diatom_219.png)
+### Forward network structure
+![forward network structure](https://github.com/GuoyaoShen/DiatomDL/blob/main/figs/forward_structure.png)
+
+### Spectra search with pseudo dataset
+![spectra search with pseudo dataset](https://github.com/GuoyaoShen/DiatomDL/blob/main/figs/spectra_search_structure.png)
